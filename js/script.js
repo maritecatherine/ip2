@@ -2,7 +2,9 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
+
 function validate() {
+var isGender = document.getElementsByName("gender");
     if(document.myForm.year.value == "" || document.myForm.year.value.length != 4 || document.myForm.year.value <= 1900) {
         alert("Please provide a valid year value!");
         document.myForm.year.focus();
@@ -21,4 +23,13 @@ function validate() {
         document.myForm.day.focus();
         return false;
     }
+    else if(isGender[0].checked == false && isGender[1].checked == false){
+        alert("Please select gender");
+        return false;
+    }
+    else{
+        return true;
+    }
+    
 }
+
