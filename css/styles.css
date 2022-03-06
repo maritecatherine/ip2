@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 5px;
+    height: auto;
+}
