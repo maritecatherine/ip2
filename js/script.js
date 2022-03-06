@@ -32,7 +32,7 @@ var isGender = document.getElementsByName("gender");
     }
     
 }
-dayValue => {
+calDayValue => {
     year = document.getElementById("year").value;
     CC = parseInt(year.substring(0,2));
     DD = parseInt(year.substring(2,4));
@@ -54,8 +54,8 @@ getGender => {
     else {
         return false;
     }
-}
-switch(gender) {
+
+    switch(gender) {
     case "male":
         if(dayValue == 1) {
             alert("Your Akan name is " +maleNames[0]+"!");
@@ -105,3 +105,9 @@ switch(gender) {
             default;
 
 }
+
+}
+function yourName(){
+    dayValue = calDayValue();
+    getGender();
+  }
