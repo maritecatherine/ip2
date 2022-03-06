@@ -43,3 +43,15 @@ dayValue => {
     console.log(Math.floor(d));
     
 }
+getGender => {
+    var isGender = document.getElementsByName("gender");
+    if(isGender[0].checked == true){
+        var gender = "male";
+    }
+    else if(isGender[1].checked == true ) {
+        var gender = "female";
+    }
+    else {
+        return false;
+    }
+}
