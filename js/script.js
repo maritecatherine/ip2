@@ -32,4 +32,14 @@ var isGender = document.getElementsByName("gender");
     }
     
 }
+dayValue => {
+    year = document.getElementById("year").value;
+    CC = parseInt(year.substring(0,2));
+    DD = parseInt(year.substring(2,4));
+    MM = parseInt(document.getElementById("month").value);
+    DD = parseInt(document.getElementById("day").value);
 
+    d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+    console.log(Math.floor(d));
+    
+}
