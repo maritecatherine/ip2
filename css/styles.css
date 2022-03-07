@@ -7,4 +7,10 @@
     border-radius: 5px;
     height: auto;
 }
-.
+.block{
+    width: 352px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 5px 20px;
+    
+}
