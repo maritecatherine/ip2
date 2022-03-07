@@ -4,18 +4,18 @@
     
 .container-1{
     text-align: center;
-    background-color: rgb(221, 221, 235);
+
 }
 .container{
     width: 520px;
-    color: whitesmoke;
-    margin: 0px;
+    color: rgb(229, 231, 78);
+    margin: 10px;
     border-radius: 5px;
     height: auto;
     background-image: url(/images/akan.jpg);
 
 }
-/*
+
 .bg{
     background-image: url(/images/akan.jpg);
     background-size: cover;
@@ -23,7 +23,7 @@
     max-width: 100%;
     margin-top: 0;
 }
-*/
+
 .block{
     width: 352px;
     margin-left: 20px;
@@ -40,4 +40,6 @@
     color: black;
     background-color: rgb(209, 209, 212);
     padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
 }
