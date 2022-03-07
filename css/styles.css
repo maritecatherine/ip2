@@ -4,7 +4,7 @@
     
 .container-1{
     text-align: center;
-    background-color: rgb(16, 14, 161);
+    background-color: rgb(221, 221, 235);
 }
 .container{
     width: 520px;
@@ -37,7 +37,7 @@
     
 }
 .footer{
-    color: rgb(241, 240, 255);
-    background-color: rgb(66, 66, 128);
+    color: black;
+    background-color: rgb(209, 209, 212);
     padding-top: 10px;
 }
