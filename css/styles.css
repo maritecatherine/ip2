@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    
+}
+
 }
 .container{
     width: 520px;
@@ -12,5 +15,10 @@
     margin-left: 20px;
     display: inline-block;
     padding: 5px 20px;
+    
+}
+.form-check-input{
+    display: inline !important;
+
     
 }
