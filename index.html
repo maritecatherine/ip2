@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Generator</title>
+   
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     
@@ -17,13 +18,13 @@
   </div>    
     <div class="container">
       <div class="bg"></div>
-        <form name="myForm" class="block" onsubmit="validate();">
+        <form name="myForm" class="block" action="#" method ="get"   onsubmit="validate();">
             <div class="top">
                 <h4> Akan name generator</h4>
             </div>
             <div class="mb-3">
                 <label for="date" class="form-label">Day</label>
-                <input type="text" class="form-control" id="day" placeholder="dd">
+                <input type="text" class="form-control" id="date" placeholder="dd">
               </div>
               <div class="mb-3">
                 <label for="month" class="form-label">Month</label>
@@ -49,7 +50,7 @@
                       Female
                     </label>
                   </div>
-                  <button type="submit" class="btn btn-primary" onclick ="yourName();"> Get Name</button>
+                  <button type="submit" class="btn btn-primary" onclick ="akanName();"> Get Name</button>
               </div>
             </div>
         </form>  
