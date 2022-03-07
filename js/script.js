@@ -61,7 +61,7 @@ function getGender() {
     switch(gender) {
         case "male":
         if(dayValue == 1) {
-            alert("Your Akan name is " +maleNames[0]+"!");
+            alert("BornYour Akan name is " +maleNames[0]+"!");
         }
         else if(dayValue == 2) {
             alert("Your Akan name is " +maleNames[1]+"!");
@@ -106,13 +106,11 @@ function getGender() {
             }
             break
 
-            default:
-       
+            default:    
 
     }
 
 }
-
 function yourName(){
     dayValue = calDayValue();
     getGender();

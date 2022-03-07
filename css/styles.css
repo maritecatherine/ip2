@@ -2,14 +2,20 @@
     box-sizing: border-box;
 }
     
-/*
+.container-1{
+    text-align: center;
+    background-color: rgb(16, 14, 161);
+}
 .container{
     width: 520px;
-    margin: 100px auto;
+    color: whitesmoke;
+    margin: 0px;
     border-radius: 5px;
     height: auto;
+    background-image: url(/images/akan.jpg);
 
-}*/
+}
+/*
 .bg{
     background-image: url(/images/akan.jpg);
     background-size: cover;
@@ -17,6 +23,7 @@
     max-width: 100%;
     margin-top: 0;
 }
+*/
 .block{
     width: 352px;
     margin-left: 20px;
@@ -28,4 +35,9 @@
     display: inline !important;
 
     
+}
+.footer{
+    color: rgb(241, 240, 255);
+    background-color: rgb(66, 66, 128);
+    padding-top: 10px;
 }
