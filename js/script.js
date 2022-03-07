@@ -102,7 +102,7 @@ getGender => {
                 alert("Your Akan name is " +femaleNames[6]+"!");
             }
             break
-            default;
+            default:
 
 }
 
